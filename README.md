@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, create a file `.env.local` in root.
 Then, place OpenAI Key as follows:
-`OPAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
+```OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx```
 
 Then, install dependencies listed in `package-lock.json` using package manager like `npm` or `yum`.
 
