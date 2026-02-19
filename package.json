@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"npm run next\" \"npm run vector\"",
+    "next": "next dev",
+    "vector": "cd vector_service && uvicorn server:app --port 8000",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "concurrently": "^9.2.1",
+    "html-react-parser": "^5.2.17",
     "next": "16.1.6",
     "openai": "^6.21.0",
     "react": "19.2.3",

@@ -9,6 +9,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+/vector_service/__pycache__
 
 # testing
 /coverage
